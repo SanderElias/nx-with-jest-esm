@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "fully-esm": ["libs/fully-esm/src/index.ts"],
       "test": ["libs/to-esm/src/index.ts"]
     }
   },
