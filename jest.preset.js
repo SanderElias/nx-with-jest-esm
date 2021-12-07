@@ -1,3 +1,9 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 const nxPreset = require('@nrwl/jest/preset');
 
-module.exports = { ...nxPreset };
+export default {
+  ...nxPreset,
+};
